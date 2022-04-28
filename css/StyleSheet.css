@@ -1,0 +1,41 @@
+header {
+    position: relative;
+    height: 30vh;
+    background: url(../img/header.jpg) center / cover;
+}
+
+header::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,.3) radial-gradient(rgba(0,0,0,.3) 25%, transparent 0) center / 5px 5px;
+}
+
+#header-title {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 100%;
+	margin: 0;
+	padding: 0 .5em;
+	color: #fff;
+	font-size: 5rem;
+	line-height: 1.4;
+	font-family: "Dosis", sans-serif;
+	letter-spacing: .1em;
+	transform: translateY(-50%);
+}
+
+main {
+	padding: 4em 16px;
+	font-size: 1.6rem;
+	text-align: left;
+}
+
+.margin {
+	margin: 0px 10px 0px 10px;
+}

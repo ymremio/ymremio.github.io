@@ -1,0 +1,35 @@
+.card {
+	position: relative;
+	margin: 10px;
+}
+
+.card-content {
+    height: 200px;
+}
+
+.card-close-button {
+    position: absolute;
+	display: inline-block;
+	height: 25px;
+    width: 25px;
+	top: 4px;
+	right: 4px;
+	cursor: pointer;
+}
+
+.card-add {
+    height: 150px;
+}
+
+.card-add-button {
+	position: absolute;
+    display: inline-block;
+	height: 25px;
+	width: 25px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+}
